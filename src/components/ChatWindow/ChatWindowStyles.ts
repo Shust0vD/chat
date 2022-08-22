@@ -5,6 +5,7 @@ export const MainDiv = styled.div`
   display: flex;
   flex-direction: column;
   width: 380px;
+  height: 80%;
   max-height: 760px;
   right: 0;
   bottom: 100px;
