@@ -18,6 +18,7 @@ export const Text = styled.p`
   font-size: 14px;
   line-height: 20px;
   word-break: break-word;
+  white-space: break-spaces;
 
   color: #000000;
 `;
