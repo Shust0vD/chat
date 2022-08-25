@@ -85,10 +85,7 @@ export const ButtonDiv = styled.div<{ visible: boolean }>`
   cursor: pointer;
 
   @media (max-width: 410px) {
-    top: ${(props) => (props.visible ? '9px' : '')};
-    right: ${(props) => (props.visible ? '9px' : '')};
-    width: ${(props) => (props.visible ? '59px' : '')};
-    height: ${(props) => (props.visible ? '59px' : '')};
+    ${(props) => props.visible && 'top: 9px; right: 9px; width: 59px; height: 59px;'}
   }
 `;
 

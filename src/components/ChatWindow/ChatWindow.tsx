@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { MainDiv, RectangleTopDiv, InputFieldDiv, MessagesDiv } from './ChatWindowStyles';
+import { MainDiv, RectangleTopDiv, InputFieldDiv, MessagesDiv } from './ChatWindow.styled';
 import { RectangleTop } from 'icons/index';
 import InputField from 'components/InputField/InputField';
 import Messages from 'components/Messages/Messages';

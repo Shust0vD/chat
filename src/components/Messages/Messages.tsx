@@ -1,6 +1,6 @@
 import React from 'react';
 import WelcomeMessage from './WelcomeMessage/WelcomeMessage';
-import { MainDiv, MessageDiv } from './MessagesStyles';
+import { MainDiv, MessageDiv } from './Messages.styled';
 import { MessagesProps } from 'intefaces/MessagesProps';
 import Message from './Message/Message';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';

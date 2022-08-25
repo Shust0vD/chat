@@ -11,7 +11,7 @@ import {
   CheckMarkDiv,
   CrossDiv,
   GrayCircleDiv,
-} from './ButtonStyles';
+} from './Button.styled';
 
 export default function Button() {
   const [visible, setvisible] = useState(false);

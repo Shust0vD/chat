@@ -1,5 +1,5 @@
 import React from 'react';
-import { WelcomeH1, WelcomeText, WelcomeButton } from './WelcomeMessageStyles';
+import { WelcomeH1, WelcomeText, WelcomeButton } from './WelcomeMessage.styled';
 import { MessagesProps } from 'intefaces/MessagesProps';
 
 const WelcomeMessage: React.FC<MessagesProps> = ({ messages, setMessages }: MessagesProps) => {

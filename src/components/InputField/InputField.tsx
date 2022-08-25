@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { AirplaneButton, EnterMessageTextarea, InputFieldDiv, SmileButton } from './InputFieldStyles';
+import { AirplaneButton, EnterMessageTextarea, InputFieldDiv, SmileButton } from './InputField.styled';
 import { Airplane, Smile } from 'icons/index';
 import SmilesWindow from 'components/SmilesWindow/SmilesWindow';
 import { MessagesProps } from 'intefaces/MessagesProps';
