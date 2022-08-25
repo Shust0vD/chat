@@ -8,7 +8,7 @@ export const MainDiv = styled.div`
   grid-template-columns: repeat(4, 1fr);
   background: #ffffff;
   box-shadow: 0px 8px 16px rgba(51, 51, 51, 0.2);
-  border-radius: 4px;
+  border-radius: 5px;
   width: 120px;
 `;
 
@@ -16,6 +16,7 @@ export const SmileButton = styled.button`
   cursor: pointer;
   border: none;
   background: none;
+  border-radius: 5px;
   padding: 5px;
   width: 30px;
 
