@@ -39,32 +39,36 @@ export const GrayCircleDiv = styled.div<{ visible: boolean }>`
 export const CrossDiv = styled.div<{ visible: boolean }>`
   position: absolute;
   overflow-x: hidden;
-  animation: ${(props) => (props.visible ? 'showCross 1s' : 'hideCross 1s')};
+  animation: ${(props) => (props.visible ? 'showCross 0.5s' : 'hideCross 0.5s')};
   animation-fill-mode: ease-out;
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  transform-origin: 50% 50%;
 
   z-index: 2;
-  bottom: 40%;
+  bottom: 45%;
   left: 40%;
   opacity: ${(props) => (props.visible ? 1 : 0)};
 
   @keyframes showCross {
     from {
       opacity: 0;
+      transform: scale(0) rotate(0deg);
     }
     to {
       opacity: 1;
-      transform: scale(1) rotate(720deg);
-      transform-origin: 50% 50%;
+      transform: scale(1) rotate(180deg);
     }
   }
   @keyframes hideCross {
     from {
       opacity: 1;
+      transform: scale(1) rotate(0deg);
     }
     to {
       opacity: 0;
-      transform: scale(-1) rotate(720deg);
-      transform-origin: 50% 50%;
+      transform: scale(0) rotate(180deg);
     }
   }
 
