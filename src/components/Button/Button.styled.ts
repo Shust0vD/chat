@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const CircleDiv = styled.div<{ visible: boolean }>`
   position: absolute;
@@ -89,7 +89,14 @@ export const ButtonDiv = styled.div<{ visible: boolean }>`
   cursor: pointer;
 
   @media (max-width: 410px) {
-    ${(props) => props.visible && 'top: 9px; right: 9px; width: 59px; height: 59px;'}
+    ${(props) =>
+      props.visible &&
+      css`
+        top: 9px;
+        right: 9px;
+        width: 59px;
+        height: 59px;
+      `}
   }
 `;
 
